@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tr"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:background="@drawable/turk"
+        android:gravity="bottom|left"
+        android:text="TÜRKİYE"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/mk"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@drawable/meksika"
+        android:gravity="bottom|left"
+        android:text="MEKSİKA"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/fr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fransiz"
+        android:gravity="bottom|left"
+        android:text="FRANSA"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>
